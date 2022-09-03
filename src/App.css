@@ -1,0 +1,59 @@
+body {
+  background-color: #472D2D;
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
+.pictere {
+  background-image: url(leone.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 20px;
+  height: 90vh;
+  width: 550px;
+  background-color: rgb(234, 233, 233);
+  position: relative;
+  overflow-x: auto;
+  box-shadow: 0.3rem 0.3rem 0.6rem #A77979, -0.3rem -0.3rem 0.6rem #A77979;
+}
+
+.header {
+  position: absolute;
+  padding: 15px;
+  margin-left: 15%;
+  color: #A77979;
+  font-family: 'Neucha', cursive;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: white;
+}
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 20px;
+}
+.btnAdd {
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bolder;
+  box-shadow: 0.2rem 0.2rem 0.5rem #A77979, -0.2rem -0.2rem 0.5rem #A77979;
+  font-family: 'Neucha', cursive;
+}
+.btnDelete {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 25px;
+  background-color: #472D2D;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Neucha', cursive;
+}
+input {
+  padding: 12px;
+  border-radius: 5px;
+  box-shadow: 0.2rem 0.2rem 0.5rem #A77979, -0.2rem -0.2rem 0.5rem #A77979;
+
+}
